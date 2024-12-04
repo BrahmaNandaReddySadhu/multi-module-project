@@ -13,6 +13,7 @@
         <module>Web-ui</module>
         <module>Restassured</module>
         <module>Appium</module>
+        <module>common-libs</module>
     </modules>
 
     <properties>
@@ -46,6 +47,19 @@
                 <artifactId>cucumber-testng</artifactId>
                 <version>7.20.1</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.guicedee.services</groupId>
+                <artifactId>slf4j</artifactId>
+                <version>1.2.2.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.javafaker</groupId>
+                <artifactId>javafaker</artifactId>
+                <version>1.0.2</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
